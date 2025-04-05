@@ -4,21 +4,7 @@
     "BlockAboutConfig": true,
     "BlockAboutProfiles": true,
     "BlockAboutSupport": true,
-    "Bookmarks": [
-      {
-        "Title": "SOAK*2025 : Strange Magic!",
-        "URL": "https://events.humanitix.com/soak-2025/tickets",
-        "Favicon": "https://events.humanitix.com/favicon.ico",
-        "Placement": "toolbar"
-      },
-      {
-        "Title": "Google",
-        "URL": "https://www.google.com/",
-        "Favicon": "https://www.google.com/favicon.ico",
-        "Folder": "Pages",
-        "Placement": "toolbar"
-      }
-    ],
+    "Bookmarks": [],
     "CaptivePortal": false,
     "DisableAppUpdate": true,
     "DisableBuiltinPDFViewer": true,
@@ -67,7 +53,7 @@
     "FlashPlugin": {},
     "HardwareAcceleration": false,
     "Homepage": {
-      "URL": "https://github.com/Ibuprofen/neko",
+      "URL": "https://events.humanitix.com/soak-2025/tickets",
       "Locked": true
     },
     "NewTabPage": true,
