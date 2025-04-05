@@ -5,12 +5,12 @@ services:
     shm_size: "4gb"
     ports:
       - "8080:8080"
-      - "52000-52010:52000-52010/udp"
+      - "52000-52100:52000-52100/udp"
     volumes:
       - "./distribution:/usr/lib/firefox/distribution"
     environment:
-      NEKO_DESKTOP_SCREEN: 1920x1080@30
+      NEKO_DESKTOP_SCREEN: 1024x768@60
       NEKO_MEMBER_MULTIUSER_USER_PASSWORD: user
       NEKO_MEMBER_MULTIUSER_ADMIN_PASSWORD: admin
-      NEKO_WEBRTC_EPR: 52000-52010
+      NEKO_WEBRTC_EPR: 52000-52100
       NEKO_WEBRTC_ICELITE: 1
